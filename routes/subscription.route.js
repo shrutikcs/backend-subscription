@@ -1,6 +1,6 @@
 import { Router } from "express";
 
-subscriptionRouter = Router();
+const subscriptionRouter = Router();
 
 subscriptionRouter.get("/", (req, res) => {
   res.send({ title: "GET all subscription" });
